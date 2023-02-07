@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #2F2F33;
+    font-size: 1.6rem;
+    padding: 11.5rem 16rem;
+}
+
+main {
+    
+}
