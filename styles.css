@@ -14,6 +14,27 @@ body {
     padding: 11.5rem 16rem;
 }
 
-main {
-    
+main, table {
+   color: #E1E1E6;
+   width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper input {
+    width: 30rem;
+}
+
+td img {
+    width: 5.6rem;
+    border-radius: 50%;
+}
+
+td {
+    text-align: center;
+    border: 1px solid red;
 }
