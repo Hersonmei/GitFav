@@ -6,10 +6,12 @@
 
 :root{
     font-size: 62.5%;
+
+    --color-bg-input-line: #06181C;
 }
 
 body {
-    background-color: #2F2F33;
+    background-color: #000000;
     font-size: 1.6rem;
     padding: 11.5rem 16rem;
 }
@@ -23,10 +25,32 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 6rem;
 }
 
 .input-wrapper input {
-    width: 30rem;
+    width: 46rem;
+    padding: 1.6rem;
+
+    background:var(--color-bg-input-line);
+    border: none;
+    border-radius: 5px;
+    color: #7C7C8A;
+}
+
+.input-wrapper .btn {
+    background-color: #065E7C;
+    padding: 1.2rem 3.2rem;
+    border-radius: 5px;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+tbody tr:nth-child(even) {
+    background:var(--color-bg-input-line);
 }
 
 td img {
