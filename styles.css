@@ -71,6 +71,12 @@ header {
     color: #065E7C;
 }
 
+.btn svg{
+    fill: red;
+}
+
+
+
 table {
     border-radius: 12px;
     border-collapse: collapse;
@@ -104,4 +110,12 @@ td img {
 
 td {
     text-align: center;
+}
+
+td .remove {
+    background: none;
+    color: #F75A68;
+    border: none;
+
+    font-weight: bold;
 }
